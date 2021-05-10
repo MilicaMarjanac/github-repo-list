@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Git Repositories</title>
+</head>
+<body>
+<tbody>
+  <tr tal:repeat="item view.home().obj">
+    <td>
+    Owner:${item.owner.login} - Details:
+    <a href="${request.route_url('repo', owner=item.owner.login,
+        repo=item.name)}">${item.name}</a>
+    </td>
+    <br/> <br/>
+  </tr>
+</tbody>
+</body>
+</html>

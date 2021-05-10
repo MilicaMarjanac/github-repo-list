@@ -1,0 +1,8 @@
+README.md
+setup.py
+githubrepos.egg-info/PKG-INFO
+githubrepos.egg-info/SOURCES.txt
+githubrepos.egg-info/dependency_links.txt
+githubrepos.egg-info/entry_points.txt
+githubrepos.egg-info/requires.txt
+githubrepos.egg-info/top_level.txt
